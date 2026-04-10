@@ -42,8 +42,8 @@ npx skills add <owner/repo@skill> -y
 More examples using this repo:
 
 ```bash
-npx skills add jonkiky/agentskills@git-commit
-npx skills add jonkiky/agentskills@implementation-executor
+npx skills add essentialsoft/agentskills@git-commit
+npx skills add essentialsoft/agentskills@implementation-executor
 ```
 
 After adding a skill, verify the repo changed:
