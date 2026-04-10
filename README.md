@@ -25,12 +25,12 @@ npx skills add <owner/repo@skill>
 
 For this repository, prefer skills from:
 
-- `https://github.com/jonkiky/agentskills`
+- `https://github.com/essentialsoft/agentskills`
 
 Example:
 
 ```bash
-npx skills add jonkiky/agentskills@code-reviewer
+npx skills add essentialsoft/agentskills@code-reviewer
 ```
 
 Non-interactive install (useful for automation):
