@@ -2,14 +2,15 @@ import argparse
 import json
 import traceback
 import mgclient
+import sys
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--host", default="127.0.0.1")
-parser.add_argument("--port", default=7687)
-parser.add_argument("--username", default="user")
-parser.add_argument("--password", default="password")
-parser.add_argument("--query", required=True)
+parser.add_argument("--host", type=str, default="127.0.0.1")
+parser.add_argument("--port", type=int, default=7687)
+parser.add_argument("--username", type=str, default="user")
+parser.add_argument("--password", type=str, default="password")
+parser.add_argument("--query", type=str, required=True)
 
 parser.add_argument("--skip", type=int, default=0)
 parser.add_argument("--limit", type=int, default=5)
@@ -60,3 +61,4 @@ except Exception as e:
             }
         )
     )
+    sys.exit(1)

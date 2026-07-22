@@ -11,7 +11,7 @@ This skill helps users:
 2. Debug failed queries.
 3. Explain Memgraph errors.
 4. Test generated queries using scripts/query_memgraph.py.
-5. Suggest corrections based on references/indices.yaml.
+5. Suggest corrections based on references/backend-index-query/indices.yaml..
 
 # Available References
 
@@ -39,7 +39,8 @@ When asked to generate/create/add a query:
 7. If successful:
    - Return query.
    - Summarize results.
-   - Validate results againist the requirement.
+   - Show the results in table.
+   - Validate results against the requirement.
 8. If failed:
    - Parse error.
    - Identify failing clause.
@@ -52,11 +53,12 @@ When asked to test/debug/validate a query:
 1. If the user provides host, port, username, password, skip, and limit, replace the defaults with those values.
 2. Read all files in the references/backend-index-query folder.
 3. Read all files in the references/model folder.
-4. Execute using scripts/query_memgraph.py with given query.
-5. If either the references/backend-index-query folder or the references/model folder has no files, stop and ask the user to provide references files.
+4. If either the references/backend-index-query folder or the references/model folder has no files, stop and ask the user to provide references files.
+5. Execute using scripts/query_memgraph.py with given query.
 6. If successful:
    - Return query.
    - Summarize results.
+   - Show the results in table.
 7. If failed:
    - Parse error.
    - Identify failing clause.
@@ -80,7 +82,7 @@ Node label not found: study
 
 Actions:
 - Compare against Backend Index Query.
-- Compare againist Database Model.
+- Compare against  Database Model.
 - Suggest valid labels.
 
 For relationship errors:
@@ -91,7 +93,7 @@ Relationship HAS_FILE does not exist
 
 Actions:
 - Compare against Backend Index Query.
-- Compare againist Database Model.
+- Compare against Database Model.
 - Suggest valid relationship types.
 
 # Query Generation Rules
