@@ -1,0 +1,40 @@
+{
+  "skill_name": "jira-fetch",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Fetch JIRA issues for the CCDI Hub project",
+      "expected_output": "Returns a structured dict with project_name, display_name, total count, and a list of issues each having issue_type, issue_key, summary, status, priority, created, updated, duedate fields",
+      "files": [],
+      "expectations": [
+        "Output contains a 'project_name' field equal to 'CCDI Hub'",
+        "Output contains a 'display_name' field equal to 'CCDI Portal (aka CCDI Hub)'",
+        "Output contains an 'issues' list",
+        "Each issue has fields: issue_type, issue_key, summary, status",
+        "Script handles JIRA_TOKEN/JIRA_URL env vars correctly"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Get all tickets from the CCDI Federation project so I can use them in my report",
+      "expected_output": "Fetches FEDERATION project issues and returns structured data; prints a formatted table to console and saves a JSON file",
+      "files": [],
+      "expectations": [
+        "Output contains 'display_name' equal to 'FEDERATION'",
+        "Issues list is present (may be empty if project has no matching tickets)",
+        "A JSON file is saved to the working directory"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Pull JIRA issues for the Index of NCI Studies project — I only want issues updated in the last 30 days",
+      "expected_output": "Fetches INS project issues with a JQL filter for updated >= -30d; returns structured data",
+      "files": [],
+      "expectations": [
+        "Output contains 'project_name' equal to 'Index of NCI Studies'",
+        "JQL includes an updated date filter or uses the JIRA_JQL env var",
+        "Script does not crash on missing duedate fields"
+      ]
+    }
+  ]
+}

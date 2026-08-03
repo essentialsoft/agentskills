@@ -1,0 +1,45 @@
+{
+  "skill_name": "status-report",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create my status report for May 2026. Author is Yizhen Chen. Include CCDI Hub and CCDI Federation projects.",
+      "expected_output": "A Word .docx file named Status_Report_Chen_202605.docx with a title page, TOC, and one section per project containing an issue table, AI-written project summary, and planned tasks bullets",
+      "files": [],
+      "expectations": [
+        "A .docx file is created and saved to the workspace folder",
+        "Document title contains 'Yizhen Chen' and 'May 2026'",
+        "Document contains a section for CCDI Hub",
+        "Document contains a section for CCDI Federation",
+        "Each project section has an issue table with columns: Issue Type, Issue Key, Summary, Status",
+        "Each project section has a 'Project Summary' subsection with prose text",
+        "Each project section has a 'Planned Tasks for Next Month' subsection with bullets"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Make a status report covering the Childhood Cancer Data Catalog and CCDI cBioPortal projects for April 2026. My name is Alex Johnson.",
+      "expected_output": "A Word .docx status report with two project sections, AI summaries, and planned tasks",
+      "files": [],
+      "expectations": [
+        "A .docx file is created",
+        "Document title contains 'Alex Johnson' and 'April 2026'",
+        "Document has a section for Childhood Cancer Data Catalog",
+        "Document has a section for CCDI cBioPortal",
+        "Planned tasks are formatted as a bulleted list"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I need my monthly status update doc. Projects: CCDI CPI and NCI Data Sharing Hub. Date: May 2026, author: Sam Rivera.",
+      "expected_output": "Status report .docx for two projects with all required sections",
+      "files": [],
+      "expectations": [
+        "A .docx file is created and presented to the user",
+        "Document contains sections for both CPI and NCI Data Sharing Hub projects",
+        "AI summary is at least 50 words per project",
+        "Skill gracefully handles projects with few or no issues"
+      ]
+    }
+  ]
+}
