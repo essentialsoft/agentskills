@@ -1,6 +1,6 @@
 ---
 name: bug-metrics-report
-description: Generate a validated bug metrics report for the CRDCDH Jira project — New Bugs Created by Sprint, and Closed Bugs by Root Cause and Sprint — each as a table plus chart, delivered as a Word document. Use this whenever the user asks for a bug report, bug metrics, bug trends, new/created bugs per sprint, closed bugs, defect counts, root-cause analysis or breakdown for CRDCDH — even phrasings like "how many bugs came in last sprint" or "what's driving our defects". Requires the mcp-atlassian (Jira) connector.
+description: Generate a validated bug metrics report for the CRDCDH Jira project — New Bugs Created by Sprint, and Closed Bugs by Root Cause and Sprint — each as a table plus chart, delivered as a Word document. Use this whenever the user asks for a bug report, bug metrics, bug trends, new/created bugs per sprint, closed bugs, defect counts, root-cause analysis or breakdown for CRDCDH — even phrasings like "how many bugs came in last sprint" or "what's driving our defects". The `mcp-atlassian` MCP is the authoritative Jira data source for this report; do not use the Jira script or direct API calls as the source of truth.
 ---
 
 # Bug Metrics Report (CRDCDH)
@@ -27,7 +27,9 @@ Produce two bug metrics from Jira, each presented as a table and a chart:
    If unspecified, ask: *"Which release(s) or sprint(s) should I include in the
    bug report?"* Do not query Jira until scope is clear.
 
-2. **Load config**, then **retrieve** per `references/jira-retrieval.md`:
+2. **Load config**, then **retrieve** per `references/jira-retrieval.md` using the
+   `mcp-atlassian` MCP as the authoritative Jira data source. Do not use the
+   Jira script or a direct Jira API call as the report's source of truth.
    **Bug** issues only, both open and closed, all pagination pages, deduped by
    issue key. Fields: key, summary, created date, status, status category,
    resolution, resolution date, root cause, sprint, fix version; plus sprint

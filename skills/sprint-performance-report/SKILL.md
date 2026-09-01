@@ -1,6 +1,6 @@
 ---
 name: sprint-performance-report
-description: Generate a validated Sprint Performance Report for the CRDCDH Jira project — individual developer performance, Dev vs. QA team performance, velocity trends by sprint, scope changes, carryover, and completion rates, delivered as a Word document with tables and charts. Use this whenever the user asks for a sprint report, sprint performance, developer performance, team velocity, sprint metrics, completion rates, scope-change analysis, or a sprint retrospective data pack for CRDCDH — even if they just say "how did sprint 25 go" or "pull the numbers for the last release". Requires the mcp-atlassian (Jira) connector.
+description: Generate a validated Sprint Performance Report for the CRDCDH Jira project — individual developer performance, Dev vs. QA team performance, velocity trends by sprint, scope changes, carryover, and completion rates, delivered as a Word document with tables and charts. Use this whenever the user asks for a sprint report, sprint performance, developer performance, team velocity, sprint metrics, completion rates, scope-change analysis, or a sprint retrospective data pack for CRDCDH — even if they just say "how did sprint 25 go" or "pull the numbers for the last release". The `mcp-atlassian` MCP is the authoritative Jira data source for this report; do not use the Jira script or direct API calls as the source of truth.
 ---
 
 # Sprint Performance Report (CRDCDH)
@@ -35,16 +35,16 @@ with every number validated before it is presented.
 
 2. **Load config** (`references/config.md`).
 
-3. **Retrieve** (`references/jira-retrieval.md`). Query the mcp-atlassian MCP
-   for **Task** issues (Dev metrics) and **User Story** issues (QA metrics) in
-   scope — both completed and incomplete. Fields per issue: key, summary, issue
-   type, created date, status, status category, resolution, resolution date,
-   story points, developer, sprint, fix version; plus sprint metadata and
-   changelog history (needed for sprint-end status, when issues entered the
-   sprint, and carryover). Retrieve **all pagination pages**, confirm the count
-   against Jira's total, and dedupe by issue key.
-
-   // Should we specify which MCP connect to use and what MCP tool to use?? in this step?
+3. **Retrieve** (`references/jira-retrieval.md`). Use the `mcp-atlassian` MCP
+   as the authoritative Jira data source for **Task** issues (Dev metrics) and
+   **User Story** issues (QA metrics) in scope — both completed and
+   incomplete. Do not use the Jira script or any direct Jira API call as the
+   report's source of truth. Fields per issue: key, summary, issue type,
+   created date, status, status category, resolution, resolution date, story
+   points, developer, sprint, fix version; plus sprint metadata and changelog
+   history (needed for sprint-end status, when issues entered the sprint, and
+   carryover). Retrieve **all pagination pages**, confirm the count against
+   Jira's total, and dedupe by issue key.
 
   
 
