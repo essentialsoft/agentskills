@@ -1,0 +1,4 @@
+interface:
+  display_name: "ESI IDP Career Coach"
+  short_description: "Coach managers through stronger IDPs"
+  default_prompt: "Use $esi-idp-career-coach to review this IDP goal and prepare the manager coaching conversation."

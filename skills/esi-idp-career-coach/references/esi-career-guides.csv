@@ -1,0 +1,195 @@
+Category,IC1 – Software Engineer I,IC2 – Software Engineer II,IC3 – Senior Software Engineer ,IC4 – Staff Engineer,IC5 – Senior Staff Engineer,IC6 – Principal Engineer,,,
+Level Summary,Learns fundamentals while delivering clearly scoped work with guidance,Independently delivers features and solutions with minimal guidance,Leads design and delivery of complex features and projects,Drives technical direction and solutions across teams,Defines long-term technical strategy across the program or account,Defines long-term technical strategy across the organization or major business lines,,,
+,,,,,,,,,
+ESI Leadership Principles (What's Your Mindset),,,,,,,,,
+Customer Obsession,Learns how their work impacts customers; listens to feedback,Proactively incorporates customer needs into planning,Advocates for customer-centric solutions in design and delivery,Influences roadmap through deep understanding of customer value,Shapes customer-obsessed culture across teams or products,Cultivates a customer-obsessed engineering culture across the organization,,,
+Innovate and Simplify,Suggests small improvements or ideas for automation,Improves processes or tooling to reduce complexity,Leads simplification of systems while enabling innovation,Drives platform or process changes that remove bottlenecks,"Shapes innovation culture by modeling bold, simple solutions","Champions bold, pragmatic innovation as a model for the entire organization",,,
+Exercise Good Judgment,Seeks input to make informed decisions and avoids rushing,Weighs tradeoffs and applies sound reasoning to tasks,Anticipates downstream effects and considers edge cases,Guides others in complex decisions with balance and clarity,Demonstrates exceptional judgment that earns trust program or account-wide,Demonstrates exceptional judgment that earns trust at the executive level,,,
+Commit to Learning,Open to feedback and actively improves from it,Explores new tools or techniques to grow skillset,Shares learnings with team and builds learning habits,Mentors others and champions a growth mindset,Creates systems that foster continuous learning program or account-wide,Designs systems that drive continuous learning across the organization,,,
+Cultivate Talent,Supports onboarding and peer learning,"Gives clear, actionable feedback to help others improve",Mentors peers and identifies potential in teammates,Leads development planning and coaching,Shapes team or org talent strategy and succession planning,"Shapes org-wide engineering talent strategy, leadership pipeline, and hiring bar",,,
+Demand Excellence,Delivers reliable work that meets team quality standards,"Pushes for improvements in code, systems, and processes",Raises the bar in execution and detail,Leads quality-focused initiatives across domains,Defines and sustains program or account-wide standards of excellence,Defines and sustains company-wide standards of technical excellence,,,
+Think Boldly,Proposes ideas that go beyond current scope,Explores big-picture improvements to customer or system,Challenges constraints with visionary thinking,Drives bold initiatives that deliver significant value,"Inspires and leads high-impact, long-term innovation","Inspires and sponsors high-impact, multi-year innovation at company scale",,,
+Act with Urgency,Executes tasks with focus and responsiveness,Makes timely decisions even under ambiguity,Accelerates progress by unblocking others quickly,Drives momentum across teams by prioritizing decisiveness,Leads with urgency without sacrificing quality or clarity,"Leads with urgency without sacrificing quality, clarity, or long-term sustainability",,,
+Earn Trust,Keeps commitments and communicates clearly,Admits mistakes and addresses issues directly,Builds credibility through transparency and consistency,Models trust-building behaviors and supports team alignment,Creates a culture of high trust and psychological safety,"Builds a company-wide culture of high trust, psychological safety, and inclusion",,,
+Do More with Less,Finds efficient ways to complete work,Eliminates waste in systems or workflows,"Designs scalable, low-maintenance solutions",Leads efficiency improvements across domains,Drives operational excellence and cost-effective growth,Drives operational excellence and cost-effective growth across engineering and product,,,
+Go Deeper,Checks assumptions and clarifies ambiguity,Investigates root causes of problems,Holds high standard for understanding systems end-to-end,Ensures others stay close to key details and data,Drives rigor and depth in strategy and execution,Brings rigor and intellectual honesty to org-level strategy and execution governance,,,
+Challenge and Commit,Shares ideas respectfully even when they differ,Raises concerns and debates tradeoffs openly,Drives productive conflict resolution within the team,Models alignment after tough decisions are made,Shapes culture of principled dissent and commitment,Models principled dissent and fosters full commitment after decisions are made,,,
+Deliver Outcomes,Completes high-quality work that supports team goals,Focuses on end-to-end delivery and removing blockers,Leads successful delivery of high-priority initiatives,Drives cross-team results that impact key metrics,Owns long-term outcomes aligned to company objectives,Owns long-term technical and business outcomes that advance company objectives,,,
+Empower Others,Supports teammates and offers help proactively,Builds trust through empathy and encouragement,Mentors or coaches others to achieve their goals,Creates inclusive environments that enable team growth,Leads with empathy and builds systems that empower people,Leads with empathy at scale and builds systems that empower engineers company-wide,,,
+,,,,,,,,,
+Functional Skills (Technical Capabilities),,,,,,,,,
+Code Quality & Reliability,"- Delivers production-ready code with support from code reviewers.
+- Follows best practices for testing and validating code changes.","- Delivers production-ready code with minimal support from code reviewers.
+- Serves as a trusted code reviewer.
+- Follows and helps evolve documented best practices for testing and validation.","- Delivers highly maintainable, production-ready code.
+- Serves as a trusted reviewer for complex or critical code changes within the team.
+- Uses knowledge of the development ecosystem to proactively improve the team's area of ownership.
+- Produces code that sets an example for quality, extensibility, and testing.
+- Improves developer efficiency, testing, and documentation within the team.","- Delivers scalable, stable, and production-ready solutions that remain maintainable over time.
+- Serves as a trusted reviewer for complex or critical code changes across one or more teams.
+- Uses knowledge of the development ecosystem to proactively improve one or more teams' areas of ownership.
+- Produces code that sets an example for quality, extensibility, and testing best practices.
+- Identifies and drives programs that materially improve developer efficiency, testing, and documentation across one or more teams.","- Delivers scalable, stable, and production-ready solutions that remain maintainable over time.
+- Serves as a trusted reviewer for complex or critical code changes across teams.
+- Uses knowledge of the development ecosystem to proactively improve several teams' areas of ownership.
+- Produces code that sets an example for quality, extensibility, and testing best practices.
+- Identifies and drives programs that materially improve developer efficiency, testing, and documentation across teams.","- Delivers scalable, stable, and production-ready solutions that remain maintainable over time.
+- Serves as a trusted reviewer for complex or critical code changes across one or more organizations.
+- Uses knowledge of the development ecosystem to proactively improve areas across one or more organizations.
+- Produces code that sets an example for quality, extensibility, and testing best practices.
+- Identifies and drives multi-year programs that materially improve developer efficiency, testing, and documentation across one or more organizations while delivering value along the way.",,,
+Architecture & Design,"- With support, emulates the style and architecture of the existing codebase.
+- Asks questions and contributes new ideas or approaches.","- Independently emulates the style and architecture of the existing codebase.
+- Writes clear technical design documents for their own projects with some reviewer support.
+- Brings ideas to team discussions that may need refinement.","- Adapts and improves the style and architecture of the existing codebase to handle new edge cases.
+- Writes clear technical design documents independently for projects involving multiple developers or for critical components of complex projects.
+- Brings ideas the team can implement to make meaningful progress toward team goals and OKRs.","- Acts as an expert on style and architecture best practices for the existing codebase and champions those practices.
+- Influences technical design and software development best practices across multiple teams.
+- Writes clear technical design documents for projects spanning one or more teams and/or a deep domain.
+- Guides the design and implementation of projects with technical complexity and uncertainty across one or more teams.
+- Introduces novel solutions informed by industry trends and best practices.","- Acts as the authority on style and architecture best practices for the existing codebase in their domain and champions those practices.
+- Defines technical design and software development practices across multiple teams.
+- Writes clear technical vision and strategy documents for areas spanning multiple teams and/or critical platform infrastructure.
+- Guides the design and implementation of projects with technical complexity and uncertainty across multiple teams.
+- Drives innovation by finding simple, generalizable solutions that open or unblock new technical or business opportunities.","- Acts as the authority on style and architecture best practices across one or more organizations and champions those practices.
+- Defines software development practices across one or more organizations that materially improve quality, performance, extensibility, developer velocity, cost structure, or security.
+- Writes clear multi-year technical vision and strategy documents for areas spanning one or more organizations.
+- Guides organizations through the design and implementation of projects that are technically complex, risky, or contentious.
+- Guides organizations in modernizing technical stacks to leverage new technologies and practices.
+- Serves as an industry expert who can consistently identify leading solutions and best practices in their domain.
+- Drives innovation by finding simple, generalizable solutions that open or unblock new technical or business opportunities.",,,
+"Execution, Delivery & Impact","- Follows the team's task management practices to meet deadlines.
+- Approaches problems logically and in a structured, analytical way (for example, by referring to documentation or reading the codebase to resolve simple blockers).
+- Is open to new ideas and willing to embrace change in support of innovation and growth.","- Independently executes on an unambiguous project with some support and guardrails.
+- Sets milestones, breaks work into tasks, and runs retrospectives with light support.
+- Presents technical design or project progress to the team with some help.
+- Shares opinions on team processes and practices to improve execution.","- Leads projects involving multiple contributors, or independently drives a complex project.
+- Sets clear milestones, breaks work into manageable tasks, delegates when needed, coordinates updates proactively, and runs retrospectives.
+- Makes thoughtful development estimates and adjusts timelines as new complexity emerges.
+- Anticipates and resolves core technical uncertainties in design and approach.
+- Identifies cross-functional dependencies and improves team processes where gaps exist.","- Secures resources to fund priorities and leads efforts across one or more teams.
+- Anticipates and mitigates potential sources of failure early.
+- Sets clear milestones, delegates effectively, coordinates updates proactively, and runs retrospectives.
+- Creates processes that enable individuals to execute efficiently across their team or teams.","- Advocates for resources to fund priorities and leads efforts across multiple teams.
+- Anticipates and mitigates potential sources of failure early.
+- Sets clear milestones, delegates effectively, coordinates updates proactively, and runs retrospectives.
+- Keeps timelines accurate as scope and complexity evolve, and helps align milestones across teams.
+- Creates processes that enable efficient execution across the organization.","- Advocates for resources to fund strategic, multi-year priorities and leads efforts across one or more organizations.
+- Anticipates and mitigates potential sources of failure early.
+- Sets clear milestones, delegates effectively, coordinates updates proactively, and runs retrospectives.
+- Keeps timelines accurate as scope and complexity evolve, and helps align milestones across teams and organizations.
+- Creates processes that enable efficient execution across one or more organizations.
+- Identifies and drives ideas for technological advancement, innovation, and improved practices across one or more organizations.",,,
+Operations & Production Ownership,"- Helps onboard new hires and interns and shares knowledge proactively.
+- Documents implemented solutions and maintains existing artifacts.","- Takes proactive measures to mentor junior team members as needed.
+- Contributes to and maintains team-level technical documentation.
+- Participates in and presents during technical forums such as brown bags, all-hands meetings, and technical design or analysis reviews.","- Proactively guides and gives feedback to junior employees through mentorship, documentation, and code or analysis reviews.
+- Owns the creation and maintenance of team-level technical documentation.
+- Leads technical presentations such as brown bags, all-hands meetings, and technical design or analysis reviews.","- Mentors and levels up junior and senior employees across the function through direct feedback, regular 1:1s, code or analysis reviews, design or documentation reviews, pair programming, and similar methods.
+- Scales impact by developing senior employees who can, in turn, develop others.
+- Reviews technical artifacts across one or more teams and identifies documentation gaps.
+- Leads technical presentations attended by teams across an organization.","- Identifies, develops, and directly mentors future technical leaders across multiple teams.
+- Scales impact by developing Senior and Staff employees who can, in turn, develop others.
+- Influences frameworks, processes, and practices that raise the bar across the organization.
+- Reviews technical artifacts across multiple teams and fosters a culture of knowledge sharing.
+- Represents the organization in broad technical forums such as leadership presentations or external conferences.","- Identifies, develops, and directly mentors future technical leaders across one or more organizations, with a focus on the most senior parts of those organizations.
+- Scales impact by developing Staff and Senior Staff employees who can, in turn, develop others.
+- Influences frameworks, processes, and technical practices that raise the bar across the company.
+- Reviews technical artifacts across one or more organizations and fosters a culture of knowledge sharing.
+- Represents the organization in broad technical forums such as engineering leadership and executive presentations.",,,
+AI Fluency & Applied Automation,"- Uses approved AI tools with guidance to accelerate routine tasks such as summarization, debugging support, or draft generation.
+- Verifies outputs before using them in code, documents, or decisions.
+- Protects sensitive data and follows team policies for responsible AI use.","- Uses approved AI tools independently for research, implementation support, and documentation.
+- Critically evaluates AI outputs, validates correctness, and records important assumptions when needed.
+- Shares practical prompts, workflows, and lessons learned with teammates.'SE'!B24","- Integrates AI into day-to-day workflows to improve team quality, speed, or coverage.
+- Defines repeatable patterns for safe AI use in development, testing, and support workflows.
+- Identifies use cases where AI can materially improve outcomes and pilots them responsibly.
+- Helps teammates build sound judgment around verification, privacy, and model limitations.","- Leads adoption of AI-enabled workflows across one or more teams, improving productivity or quality in measurable ways.
+- Establishes guardrails, evaluation criteria, and review practices for AI-assisted systems and processes.
+- Makes clear build-versus-buy decisions for AI tooling based on business value, risk, and maintainability.
+- Ensures teams know when human judgment, oversight, and fallback paths are required.","- Sets direction for AI strategy and platform usage across multiple teams.
+- Aligns the data, platform, security, and engineering practices needed to scale AI-enabled solutions responsibly.
+- Champions measurement frameworks for model quality, cost, latency, safety, and business impact.
+- Builds organizational capability by mentoring others on applied AI patterns and governance.","- Shapes multi-year AI strategy across one or more organizations and connects it to company strategy.
+- Guides investments in platform capabilities, talent, governance, and operating models that unlock durable AI leverage.
+- Defines standards for responsible AI use, evaluation, and lifecycle management at scale.
+- Identifies product or platform opportunities enabled by advances in AI and drives cross-organizational adoption.",,,
+"Communication, Alignment","- Communicates with clarity, brevity, and focus.
+- Actively listens to others, asks clarifying questions, and participates effectively in team discussions.
+- Communicates the status of their work within the team and, with guidance, to stakeholders.","- Communicates with clarity, brevity, and focus, and tailors the message to their function and project cross-functional partners.
+- Actively listens, asks clarifying questions, and often brings topics to discuss with the team.
+- Proactively communicates relevant information and the status of their work to the team and stakeholders.","- Communicates with clarity, brevity, and focus, and tailors the message to their function and team cross-functional partners.
+- Actively listens, asks clarifying questions, and leads team discussions toward conclusions and decisions.
+- Influences stakeholders to help drive project-level decisions.
+- Regularly communicates project progress, risks, and technical designs to team members and key cross-functional stakeholders.","- Communicates with clarity, brevity, and focus, and tailors the message to their function, technical leaders, and cross-functional partners.
+- Influences stakeholders and obtains buy-in to help drive team-level decisions.
+- Communicates and creates alignment around the team's technical vision and roadmap for cross-functional audiences.
+- Addresses concerns and makes alignment adjustments when needed.","- Communicates with clarity, brevity, and focus, and tailors the message to their function, senior leaders, and external stakeholders.
+- Influences stakeholders and obtains buy-in to drive decisions across multiple teams and help shape cross-team technical strategy.
+- Proactively communicates and aligns cross-team technical vision and roadmaps with cross-functional audiences.
+- Anticipates concerns and makes alignment adjustments.","- Communicates with clarity, brevity, and focus, and tailors the message to their function, senior leaders, and stakeholders, including executive audiences when needed.
+- Influences stakeholders and obtains buy-in to drive decisions across one or more organizations and help shape cross-organizational technical vision and strategy.
+- Proactively communicates cross-organizational technical vision and strategy and creates alignment with cross-functional audiences.
+- Collaborates with peer technical leaders in other organizations to align on approaches so the broader company can operate efficiently and achieve high-impact goals.",,,
+,,,,,,,,,
+"Certifications, Experience & Compensation",,,,,,,,,
+Certificate Required,AWS Cloud Practitioner by end of 1st year,AWS Cloud Practitioner,AWS AI Practioner,Any AWS Associate cerfications,Any AWS Associate cerfications,Any AWS Specialty Certificate,,,
+Experience (Typical),0–2 years,2–6 years,3–10 years,5–15 years,7–20 years,20+,,,
+Salary Range,$80 - $105K,$95 - $125K,$110 - $145K,$120 - $175K,$145 - $200K,$175K+,,,
+,,,,,,,,,
+Software Engineer — IC Promotion Signals,,,,,,,,,
+Signal Category,,IC1 ? IC2,IC2 ? IC3,IC3 ? IC4,IC4 ? IC5,IC5 ? IC6,,,
+"Code Quality
+& Reliability",,Delivers production-ready code with minimal reviewer support; begins serving as a trusted reviewer for peers.,Owns code quality end-to-end for features; sets example for testing and documentation within the team.,Raises standards across one or more teams; drives programs that materially improve developer efficiency.,Defines quality and reliability standards across multiple teams; resolves highest-complexity production issues.,Shapes multi-year quality strategy across one or more organizations; builds systems that outlast individual contributors.,,,
+"Architecture
+& Design",,Independently emulates existing patterns; writes design docs with light support.,Adapts and improves architecture for new edge cases; leads design for multi-contributor projects.,Acts as expert on architecture best practices; guides design across one or more teams.,Defines technical design practices across multiple teams; drives innovation that opens new technical opportunities.,Sets cross-org architecture direction; guides organizations through technically risky or contentious platform decisions.,,,
+"Execution,
+Delivery & Impact",,Executes unambiguous projects independently; sets milestones with light support.,Leads multi-contributor projects; anticipates and resolves technical uncertainty; adjusts timelines confidently.,Secures resources and leads delivery across one or more teams; creates processes that enable others to execute.,Advocates for multi-team priorities; keeps timelines accurate as scope evolves; enables efficient execution org-wide.,"Leads strategic, multi-year priorities across one or more organizations; drives technological advancement company-wide.",,,
+"Operations &
+Production Ownership",,Helps onboard peers; documents implemented solutions; participates in on-call with guidance.,Mentors junior team members proactively; owns team-level technical documentation; presents in technical forums.,Guides and gives feedback to juniors through mentorship and code review; owns team documentation; leads tech presentations.,Mentors and levels up senior engineers across the function; scales impact by developing others who develop others.,Mentors future technical leaders across one or more organizations with focus on Staff+ engineers; influences org-wide practices.,,,
+"AI Fluency &
+Applied Automation",,Uses AI tools independently for research and implementation; critically evaluates outputs and shares learnings with teammates.,Integrates AI into team workflows; defines repeatable patterns for safe AI use; identifies and pilots use cases responsibly.,Leads AI adoption across one or more teams with measurable productivity or quality impact; establishes guardrails and evaluation criteria.,"Sets AI strategy and platform direction across multiple teams; aligns data, security, and engineering practices at scale.","Shapes company-wide AI strategy; guides investments in governance, talent, and platforms for durable AI leverage.",,,
+"Communication
+& Alignment",,Proactively communicates work status to team and stakeholders; tailors message to cross-functional partners.,Leads team discussions toward decisions; influences stakeholders on project-level outcomes.,Influences stakeholders and obtains buy-in for team-level decisions; aligns cross-functional audiences on technical roadmap.,Drives decisions across multiple teams; proactively aligns cross-team technical vision with senior leaders.,Influences executive audiences; aligns cross-organizational technical strategy; collaborates with peer leaders company-wide.,,,
+"ESI Principles
+(Demonstrated)",,Shows curiosity; applies feedback consistently; follows through with care and reliability.,Applies principles in difficult situations; models ownership and urgency; challenges low standards constructively.,Holds others accountable to principles; drives reliability and quality outcomes across releases.,Shapes culture through principles; mentors senior engineers and emerging leaders.,Defines engineering culture at organizational scale; mentors Staff and Senior Staff engineers who develop others.,,,
+Note: Promotion requires demonstrated evidence across a majority of signal categories sustained over time — not a single exceptional moment. Readiness is assessed by the manager in partnership with senior peers.,,,,,,,,,
+,,,,,,,,,
+"People leadership is a distinct capability with an additional layer of responsibilities. As such, people leaders are compensated accordingly.",,,,,,,,,
+"All employees are ICs. Yet, advancement on the IC track does not require people management. Senior ICs are encouraged — but not required — to mentor and advise other ICs",,,,,,,,,
+Software Engineer — People Leadership (PL) Responsibilities ,,,,,,,,,
+Capability Area,,PL1 – Tech Lead I,PL2 – Tech Lead II,PL3 – Manager I,PL4 – Manager II/Director,,,,
+"Primary
+Accountability",,Day-to-day team execution and technical unblocking.,"Sustained team performance, delivery health, and engineering quality.","Multi-team outcomes, leadership leverage, and organizational health.","Org-wide strategy, execution, talent, and engineering culture.",,,,
+Team Scope,,Single team (1-3 ICs).,Single team (often larger or more complex).,2–4 teams via Tech Leads.,Multiple groups / org.,,,,
+"Team
+Leadership",,Runs standups and 1:1s; clarifies priorities and removes blockers.,Owns team operating rhythm; manages performance; addresses issues directly.,Manages Tech Leads; delegates effectively; resolves escalations.,Sets org vision; coaches senior managers; models leadership culture.,,,,
+"Technical
+Leadership",,Leads sprint planning; unblocks technical issues; participates in design reviews.,"Balances delivery, quality, and tech debt; contributes to architecture decisions.",Aligns architecture with product strategy; ensures technical health across teams.,Chairs architecture reviews; aligns engineering direction with executive priorities.,,,,
+"AI Fluency
+(Required)",,Encourages team adoption of approved AI tools; models responsible and verified use in day-to-day work.,"Ensures team builds AI fluency; champions safe, measurable AI workflows; integrates AI into sprint planning.","Integrates AI strategy into team planning, hiring expectations, and delivery practices.",Owns AI capability-building across the org; partners with Principal+ engineers on AI governance and platform decisions.,,,,
+"Decision
+Authority",,Task-level and sprint-level decisions.,Team-level tradeoffs and delivery commitments.,Resource allocation across teams.,Org-level investment and priority decisions.,,,,
+"People
+Development",,"Mentors junior engineers; gives timely, actionable feedback.",Owns performance management; grows IC3s and IC4s into senior contributors.,Develops Tech Leads; builds succession depth; resolves people escalations.,Drives succession planning and leadership pipelines; identifies future Principal engineers.,,,,
+"Hiring
+& Staffing",,Participates in interviews; supports onboarding quality.,Owns team hiring and onboarding; raises the interview bar.,Owns hiring strategy across teams; defines role requirements and leveling.,Owns org workforce planning; partners with recruiting on long-term talent strategy.,,,,
+"Execution
+& Results",,Delivers sprint goals; removes blockers; communicates risks early.,Delivers predictable outcomes quarter-over-quarter.,Owns multi-team roadmaps and delivery; manages cross-team dependencies.,Sets quarterly objectives; executes company priorities; holds org accountable to outcomes.,,,,
+Communication,,Communicates team status and risks clearly.,Communicates delivery health and risks to stakeholders.,Communicates org status cross-functionally; represents team to leadership.,Represents engineering to executives and external partners.,,,,
+"Typical IC
+Background",,Late IC2 or early IC3.,IC3 or early IC4.,IC4–IC5.,Senior Staff or Principal (IC5–IC6).,,,,
+,,,,,,,,,
+PL People Leadership (PL) — Promotion Signals,,,,,,,,,
+Signal Category,,PL1 ? PL2,PL2 ? PL3,PL3 ? PL4,,,,,
+"Delivery
+& Execution",,Demonstrates consistent sprint delivery and team stability; engineers are unblocked and productive.,Delivers outcomes reliably through delegation rather than personal execution; team meets commitments quarter-over-quarter.,Builds durable delivery systems across multiple teams; org executes predictably at scale.,,,,,
+"People
+Development",,Engineers on their team are visibly growing; feedback is timely and actionable.,Develops IC3s and IC4s into senior contributors; owns performance conversations independently.,Successfully grows Tech Leads who in turn develop their own teams; builds succession depth.,,,,,
+"AI Fluency
+& Enablement",,Team has adopted at least one AI-assisted workflow with measurable impact; leader models responsible use.,Team operates with AI-fluency as a baseline expectation; leader has integrated AI into hiring and planning discussions.,Org-wide AI capability is measurably improving under their leadership; contributes to governance and tooling decisions.,,,,,
+"Leadership
+Readiness",,"Demonstrates ability to lead through influence, not just authority; earns trust from peers and direct reports.",Recognized as a leader of leaders; Tech Leads seek their guidance proactively.,Operates as a strategic voice at the executive level; shapes org design and long-term talent strategy.,,,,,
+"Technical
+Credibility",,Maintains hands-on technical depth; credible in design and code review discussions.,Balances strategic thinking with technical credibility; contributes meaningfully to architecture decisions.,Serves as a trusted technical voice across multiple teams; aligns engineering direction with business strategy.,,,,,
+,,,,,,,,,
